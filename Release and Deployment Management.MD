@@ -8,6 +8,6 @@
 Reference-style: 
 ![alt text][logo]
 
-[logo]: ./Images/logo.png "Logo Title Text 2"
+[logo]: ./Images/icon.png "Logo Title Text 2"
 ## Inleiding
 >[Hieronder de inleiding]
