@@ -35,7 +35,68 @@ Ten slotte bevind zich op het einde van deze documentatie een samenvatting die i
 [Hieronder tekst]
 
 ## <a id="scrum"></a>Scrum
-[Hieronder tekst]
+Binnen Kwetter wordt gebruik gemaakt van Scrum. In de flowchart uit de workflow sectie is te zien aan de terminologie dat er gebruik gemaakt wordt van Scrum.
+
+Binnen Scrum zijn een aantal persoonsrollen die verdeeld zijn. Iedere rol heeft zijn verantwoordelijkheden.
+
+| Rol                  | Omschrijving           | Uitgevoerd door  |
+| -------------        |:-------------| -----:|
+| Product Owner 👨‍💼     | Toezicht op de ontwikkeling en hoofdrolspeler wat betreft stories die opgepakt gaan worden binnen ontwikkeling van de applicatie.  | Michael Franssen |
+| Stakeholders 👨‍🔧👩‍🏭👩‍💼 | Personen uit de business waarvoor Kwetter een behoefte is. Zij dragen userstories aan naar de Product Owner.      |   Frank Coenen, Frenk Reemer, Eric Slaats |
+| Developers 👨‍💻👩‍💻     | De personen die de applicatie gaan ontwikkelen.      |    Ferry Jongmans, Martijn Broekman |
+
+### Werkwijze
+De productowner zorgt ervoor dat de userstories die hij en zijn stakeholders belangrijk vinden uitgewerkt worden door de developers. De developers werken in een sprint die 3 weken duurt. Deze keuze is gemaakt omdat het development team klein is. Indien de sprints korter duren zal er minder opgeleverd kunnen worden door de developers. Dit resulteert dan vervolgens in teveel overhead.
+
+### Productownership
+De productowner levert userstories op aan de developers. In overleg met hen wordt er een prioriteit gekoppeld aan de userstories wat vervolgens de volgorde van development bepaalt.
+
+### Developers
+Iedere dag vind er een stand-up plaats met de andere ontwikkelaars waarin de laatste ontwikkelingen worden besproken in een format wat er als volgt uitziet:
+> - Wat ben ik aan het doen?
+> - Wat ga ik doen?
+> - Loop ik tegen problemen aan, of ga ik tegen problemen aanlopen?
+
+Op deze manier houd je de andere ontwikkelaars bewust van het ontwikkelproces en blijft het voor iedereen overzichtelijk.
+
+### Backlog
+De backlog is een aparte plaats waar alle userstories opgeslagen worden. Vanuit de backlog worden de userstories gekozen voor de huidige sprint. 
+
+Deze userstories bevinden zich in verschillende stadia voordat zij geimplementeerd kunnen worden. Hieronder staan de statussen omschreven:  
+1. New (Nieuw aangeleverde userstory aangeleverd door de productowner)
+1. Identified (De userstory is uitgewerkt en begrijpbaar voor de developers)
+1. Committed (De userstory is opgenomen in een sprint)
+1. Closed (Userstory is niet gemaakt, productowner heeft de ontwikkeling van deze userstory stopgezet)
+1. Done (Userstory is compleet uitgewerkt volgens de definition of done en de acceptatie criteria)
+
+### Scrumboard
+Het scrumboard is een kanban bord met hierop alle userstories die opgenomen zijn in de sprint. De userstories zijn gesorteerd op prioriteit waardoor de belangrijkste userstories zich bovenin het bord bevinden.
+
+Het scrumboard kent diverse swimlanes:
+1. Todo (Ontwikkeling nog niet gestart)
+1. In progress (Ontwikkeling gestart)
+1. Review (Nieuwe features staan in een pullrequest)
+1. Done (Ontwikkeling voltooid en samengevoegd met de develop branch)
+
+Op het scrumboard bevinden zich userstories. Elke userstory kan heeft een of meerdere taken die de developer zelf toevoegt.
+
+Voorbeeld: Op het scrumboard staat een userstory: "Als gebruiker van de Kwetter applicatie wil ik een Kwet kunnen liken zodat degene die de Kwet geplaatst heeft diet dat ik het leuk vind". Onder deze userstory vallen diverse taken. Hieronder is een voorbeeld van een userstory met losse taken te zien.
+
+| Userstory         | Todo      | In progress       | Review | Done |
+| -------------     | --------- | -----             | ---    | --- |
+| Als gebruiker van de Kwetter applicatie wil ik een Kwet kunnen liken zodat degene die de Kwet geplaatst heeft diet dat ik het leuk vind". Onder deze userstory   | Task: Service methode maken voor het aanroepen opslaan van een like |   |
+| |  | Task: LikeComponent maken in Angular Frontend | |
+| | Task: LikeComponent CSS maken | |
+
+### Sprint oplevering
+Als de sprint is afgelopen wordt de applicatie uitgebracht. Deze versie wordt gepresenteerd aan de productowner en bij voorkeur ook aan de stakeholders. Binnen deze oplevering betrek je de opdrachtgever bij het opgeleverde werk. Indien zij nog graag aanpassingen zien aan de opgeleverde versie kan dit eenvoudig aangepast worden. Zo'n aanpassing heet een Request For Change (RFC).
+
+Na de sprintoplevering kiest de productowner weer opnieuw userstories uit die gebruikt gaan worden voor de nieuwe sprint.
+
+### Uitzonderingen
+Uiteraard zijn er ook uitzonderingen mogelijk. Indien er een userstory blocked is tijdens de sprint kan er dus niet aan gewerkt worden. De productowner dient te allen tijde op de hoogte te zijn van dit soort problemen.
+
+Als een userstory nog niet helemaal is geimplementeerd is het verstandiger deze uit de sprint oplevering te laten. Voor de eindgebruiker is het beter om een feature niet te hebben dan een feature die voor de helft werkt.
 
 ## <a id="testing"></a>Testing
 [Hieronder tekst]
@@ -56,7 +117,7 @@ Reference-style:
 
 ## Werkverdeling:
 | State | Onderdeel | Door |
-| - | --------- | ----------- |
+| :-: | --------- | -----------: |
 | ✅ | Inleiding   | Ferry |
 | 🚧 | Workflow   | Martijn |
 | 🔴 | Git | Martijn |
