@@ -6,13 +6,23 @@ Auteurs: Ferry Jongmans (343410), Martijn Broekman (345814)
 Deze documentatie is geschreven om een inzicht te geven in het Release en Deployment Management van Kwetter.
 
 ### Casus
-text
-### Doel
-Wat gaan we bereiken met deze afspraken
+Twitter is een internetdienst ontstaan in 2006 waarbij gebruikers korte berichtjes publiceren. Via twitter.com geeft de hele wereld online antwoord op de vraag “What are you doing?”
+>“Twitter is a free social networking and microblogging service that enables its users to send and read messages known as tweets. Tweets are text-based posts of up to 140 characters displayed on the author's profile page and delivered to the author's subscribers who are known as followers. Senders can restrict delivery to those in their circle of friends or, by default, allow open access.” -Uit Wikipedia, de vrije encyclopedie
+
+Dit project is gebaseerd op Twitter en heet "Kwetter".
+
+Voor verdere details over deze casus is [hier](./Docs/Casus.docx) meer informatie te vinden.
+
+### Doel van deze documentatie
+Het doel van dit document is om te omschrijven hoe er omgegaan wordt met Releases en Deployment. Eerst wordt er een algemene workflow omschreven die een globaal beeld schetst over de verschillende stappen in het ontwikkelproces.  
+
+Vervolgens wordt op de onderdelen uit de workflow in de subkoppen Git, Scrum, Testing en Deployment ingezoomd waarin de specifieke details worden toegelicht. 
+
+Ten slotte bevind zich op het einde van deze documentatie een samenvatting die in het kort alle stappen van development to deployment samenvat.
 
 ## Inhoudsopgave
 + [Workflow](#workflow)
-+ [Git](#git)  
++ [Git](#git)
 + [Scrum](#scrum)
 + [Testing](#testing)
 + [Deployment](#deployment)
