@@ -29,7 +29,7 @@ Ten slotte bevind zich op het einde van deze documentatie een samenvatting die i
 + [Samenvatting](#samenvatting)
 
 ## <a id="workflow"></a>Workflow
-De werkflow van Kwetter zal maakt gebruik van verschillende technieken. In [Figuur 1](#FiguurWorkflow) is te zien hoe een feature geimplementeerd wordt in Kwetter met deze technieken. In de volgende hoofdstukken is beschreven hoe deze technieken werken en waarom deze zo zijn geimplementeerd.
+De workflow van Kwetter maakt gebruik van verschillende technieken. In [Figuur 1](#FiguurWorkflow) is te zien hoe een feature geimplementeerd wordt in Kwetter met deze technieken. In de volgende hoofdstukken is beschreven hoe deze technieken werken en waarom deze zo zijn geimplementeerd.
 
 <a id="FiguurWorkflow"></a>![workflow][workflow]
 Figuur 1: Workflow
