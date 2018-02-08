@@ -1,13 +1,40 @@
-# Release and Deployment Management
-| Datum         | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| 08-02-1018      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+# <a id="begin"></a>Release and Deployment Management
+Datum: 08-02-2018  
+Auteurs: Ferry Jongmans (343410), Martijn Broekman (345814)
 
-Reference-style: 
-![alt text][logo]
-
-[logo]: ./Images/icon.png "Logo Title Text 2"
 ## Inleiding
->[Hieronder de inleiding]
+Deze documentatie is geschreven om een inzicht te geven in het Release en Deployment Management van Kwetter.
+
+## Inhoudsopgave
++ [Workflow](#workflow)
++ [Git](#git)  
++ [Scrum](#scrum)
++ [Testing](#testing)
++ [Deployment](#deployment)
++ [Samenvatting](#samenvatting)
+
+## <a id="workflow"></a>Workflow
+[Hieronder de inleiding]
+
+## <a id="git"></a>Git
+[Hieronder tekst]
+
+## <a id="scrum"></a>Scrum
+[Hieronder tekst]
+
+## <a id="testing"></a>Testing
+[Hieronder tekst]
+
+## <a id="deployment"></a>Deployment
+[Hieronder tekst]
+
+## <a id="samenvatting"></a>Samenvatting
+[Hieronder tekst]
+
+---
+[Terug naar boven](#begin)
+<!-- Logos referenced in this markdown -->
+[logo]: ./Images/icon.png "Logo Title Text 2"
+<!-- 
+Reference-style: 
+![logo][logo] -->
