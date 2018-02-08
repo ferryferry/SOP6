@@ -55,12 +55,17 @@ Reference-style:
 ![logo][logo] -->
 
 ## Werkverdeling:
-| Onderdeel | Door |
-| --------- | ----------- |
-| Inleiding   | Ferry |
-| Workflow   | Martijn |
-| Git | Martijn |
-| Scrum    | Ferry |
-| Testing    | Martijn |
-| Deployment    | n.v.t. |
-| Samenvatting | n.v.t. |
+| State | Onderdeel | Door |
+| - | --------- | ----------- |
+| ✅ | Inleiding   | Ferry |
+| 🚧 | Workflow   | Martijn |
+| 🔴 | Git | Martijn |
+| 🔴 | Scrum    | Ferry |
+| 🔴 | Testing    | Martijn |
+| 🔴 | Deployment    | n.v.t. |
+| 🔴 | Samenvatting | n.v.t. |
+
+Legenda:  
+✅ = Done  
+🚧 = Under Construction  
+🔴 = Not Started
