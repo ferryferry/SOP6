@@ -29,7 +29,10 @@ Ten slotte bevind zich op het einde van deze documentatie een samenvatting die i
 + [Samenvatting](#samenvatting)
 
 ## <a id="workflow"></a>Workflow
-[Hieronder de inleiding]
+De workflow van Kwetter maakt gebruik van verschillende technieken. In [Figuur 1](#FiguurWorkflow) is te zien hoe een feature geimplementeerd wordt in Kwetter met deze technieken. In de volgende hoofdstukken is beschreven hoe deze technieken werken en waarom deze zo zijn geimplementeerd.
+
+<a id="FiguurWorkflow"></a>![workflow][workflow]
+Figuur 1: Workflow
 
 ## <a id="git"></a>Git
 [Hieronder tekst]
@@ -111,6 +114,7 @@ Als een userstory nog niet helemaal is geimplementeerd is het verstandiger deze 
 [Terug naar boven](#begin)
 <!-- Logos referenced in this markdown -->
 [logo]: ./Images/icon.png "Logo Title Text 2"
+[workflow]: ./Images/Workflow.png "Workflow"
 <!-- 
 Reference-style: 
 ![logo][logo] -->
