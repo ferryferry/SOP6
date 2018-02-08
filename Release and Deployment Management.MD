@@ -56,9 +56,9 @@ De productowner levert userstories op aan de developers. In overleg met hen word
 
 ### Developers
 Iedere dag vind er een stand-up plaats met de andere ontwikkelaars waarin de laatste ontwikkelingen worden besproken in een format wat er als volgt uitziet:
-> - Wat ben ik aan het doen?
-> - Wat ga ik doen?
-> - Loop ik tegen problemen aan, of ga ik tegen problemen aanlopen?
+- Wat ben ik aan het doen?
+- Wat ga ik doen?
+- Loop ik tegen problemen aan, of ga ik tegen problemen aanlopen?
 
 Op deze manier houd je de andere ontwikkelaars bewust van het ontwikkelproces en blijft het voor iedereen overzichtelijk.
 
@@ -99,7 +99,7 @@ Na de sprintoplevering kiest de productowner weer opnieuw userstories uit die ge
 ### Uitzonderingen
 Uiteraard zijn er ook uitzonderingen mogelijk. Indien er een userstory blocked is tijdens de sprint kan er dus niet aan gewerkt worden. De productowner dient te allen tijde op de hoogte te zijn van dit soort problemen.
 
-Als een userstory nog niet helemaal is geimplementeerd is het verstandiger deze uit de sprint oplevering te laten. Voor de eindgebruiker is het beter om een feature niet te hebben dan een feature die voor de helft werkt.
+Als een userstory nog niet helemaal is geimplementeerd is het verantwoord deze uit de sprint oplevering te laten. Voor de eindgebruiker is het beter om een feature niet te hebben dan een feature die voor de helft werkt.
 
 ## <a id="testing"></a>Testing
 [Hieronder tekst]
