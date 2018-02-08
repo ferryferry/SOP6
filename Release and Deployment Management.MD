@@ -5,6 +5,11 @@ Auteurs: Ferry Jongmans (343410), Martijn Broekman (345814)
 ## Inleiding
 Deze documentatie is geschreven om een inzicht te geven in het Release en Deployment Management van Kwetter.
 
+### Casus
+text
+### Doel
+Wat gaan we bereiken met deze afspraken
+
 ## Inhoudsopgave
 + [Workflow](#workflow)
 + [Git](#git)  
@@ -38,3 +43,14 @@ Deze documentatie is geschreven om een inzicht te geven in het Release en Deploy
 <!-- 
 Reference-style: 
 ![logo][logo] -->
+
+## Werkverdeling:
+| Onderdeel | Door |
+| --------- | ----------- |
+| Inleiding   | Ferry |
+| Workflow   | Martijn |
+| Git | Martijn |
+| Scrum    | Ferry |
+| Testing    | Martijn |
+| Deployment    | n.v.t. |
+| Samenvatting | n.v.t. |
