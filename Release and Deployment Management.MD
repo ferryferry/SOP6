@@ -8,6 +8,6 @@
 Reference-style: 
 ![alt text][logo]
 
-[logo]: https://github.com/ferryferry/SOP6/blob/master/Images/icon.png "Logo Title Text 2"
+[logo]: ./Images/logo.png "Logo Title Text 2"
 ## Inleiding
 >[Hieronder de inleiding]
