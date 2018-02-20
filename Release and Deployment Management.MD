@@ -35,7 +35,11 @@ De workflow van Kwetter maakt gebruik van verschillende technieken. In [Figuur 1
 Figuur 1: Workflow
 
 ## <a id="git"></a>Git
-[Hieronder tekst]
+Het versiebeheer systeem Git wordt gebruikt voor het samenwerken tussen de verschillende ontwikkelaars, doormiddel van verschillende branches is het mogelijk voor verschillende programmeurs samen te werken aan één project zonder dat zij elkaar in de weg zitten.
+
+Er gaat gebruik 
+![gitWithEnvironments][gitWithEnvironments]
+
 
 ## <a id="scrum"></a>Scrum
 [Hieronder tekst]
@@ -54,6 +58,7 @@ Figuur 1: Workflow
 <!-- Logos referenced in this markdown -->
 [logo]: ./Images/icon.png "Logo Title Text 2"
 [workflow]: ./Images/Workflow.png "Workflow"
+[gitWithEnvironments]: ./Images/Git_Graph.png "Git Graph with environments"
 <!-- 
 Reference-style: 
 ![logo][logo] -->
