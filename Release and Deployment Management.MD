@@ -67,7 +67,7 @@ Binnen Scrum zijn een aantal persoonsrollen die verdeeld zijn. Iedere rol heeft 
 | Rol                  | Omschrijving           | Uitgevoerd door  |
 | -------------        |:-------------| -----:|
 | Product Owner 👨‍💼     | Toezicht op de ontwikkeling en hoofdrolspeler wat betreft stories die opgepakt gaan worden binnen ontwikkeling van de applicatie.  | Michael Franssen |
-| Stakeholders 👨‍🔧👩‍🏭👩‍💼 | Personen uit de business waarvoor Kwetter een behoefte is. Zij dragen userstories aan naar de Product Owner.      |   Frank Coenen, Frenk Reemer, Eric Slaats |
+| Stakeholders 👨‍🔧👩‍🏭👩‍💼 | Personen uit de business waarvoor Kwetter een behoefte is. Zij dragen userstories aan naar de Product Owner.      |   Frank Coenen, Frenk  Reemer, Eric Slaats |
 | Developers 👨‍💻👩‍💻     | De personen die de applicatie gaan ontwikkelen.      |    Ferry Jongmans, Martijn Broekman |
 
 ### Werkwijze
@@ -146,9 +146,9 @@ Reference-style:
 | State | Onderdeel | Door |
 | :-: | --------- | -----------: |
 | ✅ | Inleiding   | Ferry |
-| 🚧 | Workflow   | Martijn |
-| 🔴 | Git | Martijn |
-| 🔴 | Scrum    | Ferry |
+| ✅ | Workflow   | Martijn |
+| 🚧 | Git | Martijn |
+| ✅ | Scrum    | Ferry |
 | 🔴 | Testing    | Martijn |
 | 🔴 | Deployment    | n.v.t. |
 | 🔴 | Samenvatting | n.v.t. |
