@@ -37,9 +37,27 @@ Figuur 1: Workflow
 ## <a id="git"></a>Git
 Het versiebeheer systeem Git wordt gebruikt voor het samenwerken tussen de verschillende ontwikkelaars, doormiddel van verschillende branches is het mogelijk voor verschillende programmeurs samen te werken aan één project zonder dat zij elkaar in de weg zitten.
 
-Er gaat gebruik 
 ![gitWithEnvironments][gitWithEnvironments]
 
+Er gaat gebruik worden gemaakt van een 5 tal verschillende branches. Elke branch zal ook een bijbehoorde omgeving hebben. Deze omgevingen gaan in de volgende subhoofdstukken worden toegelicht.
+
+### User story
+Alle ontwikkelaars werken op een losse branch per user story. Als deze userstory is afgerond moet een andere ontwikkelaar deze code na kijken. Dit doet de ontwikkelaar doormiddel van een pullrequest. Ook moet de ontwikkelaar die het na kijkt de applicatie zelf testen, omdat niet alle fouten in één opzicht te zien zijn in de code.  
+Daarom komt er specieke omgeving online voor de pullrequest, zodat de functionaliteiten getest kunnen worden. Nadat de pullrequest is goedgekeurt in is gemerged met de develop branch sluit deze omgeving automatisch af. 
+
+### Develop
+Dit is de hoofdbranch binnen het ontwikkelproces. Van deze branch worden de verschillende User story branches gemaakt. Het is de bedoeling dat op deze branch alleen code staat die is goedgekeurd code minimaal één andere ontwikkelaar.  
+Drie dagen voor het einde van een sprint zal de code van de develop branch naar de test branch worden gepushed.
+
+### Test
+Deze branch is er, zodat er verder kan worden gewerkt op de develop branch zonder dat er nieuwe code komt die de validiteit van de testen kan beïnvloeden. Ook zal de code op deze branch automatisch naar de test omgeving worden gedeployed, zodat de testers de code zelf hoeven in te zien.  
+Alle bugs die worden gevonden zullen op de code van deze branch worden opgelost en daarna naar de develop branch gepushed.
+
+### Acceptance
+Op deze branch komt de getesten code voor de oplevering van de sprint. Deze code wordt dan ook naar de verschillende acceptatie omgevingen van de klanten gepublished, zodat zijn de versie kunnen bekijken voor de oplevering van de daadwerlijke sprint.
+
+### Master
+Op deze branch komt de code als het is goedgekeurt door de product owner. De code op de branch komt ook automatisch in de release omgeving.
 
 ## <a id="scrum"></a>Scrum
 Binnen Kwetter wordt gebruik gemaakt van Scrum. In de flowchart uit de workflow sectie is te zien aan de terminologie dat er gebruik gemaakt wordt van Scrum.
@@ -106,7 +124,7 @@ Uiteraard zijn er ook uitzonderingen mogelijk. Indien er een userstory blocked i
 Als een userstory nog niet helemaal is geimplementeerd is het verantwoord deze uit de sprint oplevering te laten. Voor de eindgebruiker is het beter om een feature niet te hebben dan een feature die voor de helft werkt.
 
 ## <a id="testing"></a>Testing
-[Hieronder tekst]
+In dit hoofdstuk wordt toegelicht hoe de applicaties getest gaan worden. De testen zijn onder te verdelen in
 
 ## <a id="deployment"></a>Deployment
 [Hieronder tekst]
